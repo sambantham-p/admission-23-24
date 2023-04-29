@@ -80,7 +80,7 @@ button:focus{
 	outline:none;
 }
 ul{
-	list-style: outside none none;
+	
 	margin: 0;
 	padding: 0;
 }
@@ -674,7 +674,7 @@ ul{
 	text-transform:uppercase;
 	color:#fff;
 	margin-bottom:20px;
-	font-size:36px;
+	font-size:39px;
 }
 .slider-content h3{
 	color:#296dc1;
@@ -1868,7 +1868,7 @@ ul{
 .header-middle::before{
     content: "";
     background-color: #fff;
-    width: 60%;
+    width: 55%;
     height: 100%;
     position: absolute;
     left: -50px;
@@ -3117,6 +3117,24 @@ h3.blog-title::after{
         padding-top: 142px;
     }
 }
+@media (max-width: 475px)
+{
+    .admission{
+        padding-top: 142px;
+    }
+}
+@media (max-width: 575px)
+{
+    .admission{
+        padding-top: 142px;
+    }
+}
+@media (max-width: 775px)
+{
+    .admission{
+        padding-top: 142px;
+    }
+}
 .sec-title {
     margin-bottom: calc(var(--section-title-space) - 12px);
     margin-top: -0.23em;
@@ -3419,4 +3437,194 @@ h3.blog-title::after{
     text-align: center;
     border-radius: 50%;
     border: none;
+}
+
+@media (max-width: 375px) {
+    .footer{
+        display: block;
+    }
+}
+@media (max-width: 475px) {
+    .footer{
+        display: block;
+    }
+}
+@media (max-width: 575px) {
+    .footer{
+        display: block;
+    }
+}
+@media (max-width: 375px) {
+    .brow{
+        display: block;
+    }
+}
+@media (max-width: 475px) {
+    .brow{
+        display: block;
+    }
+}
+@media (max-width: 575px) {
+    .brow{
+        display: block;
+    }
+}
+
+@media (max-width: 775px) {
+    .brow{
+        display: block;
+    }
+}
+@media (max-width: 975px) {
+    .brow{
+        display: block;
+    }
+}
+.admission{
+    display: flex;
+    justify-content: space-between;
+   
+}
+@media (max-width: 375px) {
+    .admission{
+        display: block;
+    }
+    .slider-content h2{
+        text-transform:uppercase;
+        color:#fff;
+        margin-bottom:-80px;
+        font-size:39px;
+    }
+}
+@media (max-width: 475px) {
+    .admission{
+        display: block;
+    }
+    .slider-content h2{
+        text-transform:uppercase;
+        color:#fff;
+        margin-bottom:-80px;
+        font-size:39px;
+    }
+}
+@media (max-width: 575px) {
+    .admission{
+        display: block;
+    }
+    .slider-content h2{
+        text-transform:uppercase;
+        color:#fff;
+        margin-bottom:-80px;
+        font-size:39px;
+    }
+}
+@media (min-width: 640px) {
+    .admission{
+        padding: 25px;
+    }
+}
+@media (min-width: 770px) {
+    .admission{
+        padding: 25px;
+    }
+}
+@media (min-width: 1330px) {
+    .admission{
+        padding: 25px;
+    }
+}
+@media (min-width: 1630px) {
+    .admission{
+        padding: 25px;
+    }
+}
+.accordion-card .accordion-button {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--title-font);
+    border: 0;
+    color: var(--title-color);
+    background-color: var(--white-color);
+    box-shadow: 0px 5px 15px rgba(42, 77, 113, 0.04);
+    border-radius: 5px;
+    padding: 15px 60px 15px 25px;
+    min-height: 50px;
+    gap: 10px;
+    margin-bottom: 0;
+    text-align: left;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    position: relative;
+  }
+  .accordion-card .accordion-button:after {
+    content: "\f067";
+    width: 55px;
+    height: 55px;
+    height: 100%;
+    line-height: 1;
+    background-image: none;
+    font-family: var(--icon-font);
+    color: var(--title-color);
+    font-weight: 900;
+    font-size: 1em;
+    display: grid;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .accordion-card .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .accordion-card .accordion-button:not(.collapsed) {
+    color: var(--white-color);
+    background-color: var(--theme-color);
+    box-shadow: none;
+    border-radius: 5px 5px 0 0;
+  }
+  .accordion-card .accordion-button:not(.collapsed):after {
+    content: "\f068";
+    color: var(--white-color);
+  }
+  .accordion-card .accordion-collapse {
+    border: none;
+  }
+  .accordion-card .accordion-body {
+    box-shadow: 0px 5px 15px rgba(42, 77, 113, 0.04);
+    border-radius: 0 0 5px 5px;
+    background-color: var(--white-color);
+    padding: 23px 25px 30px 25px;
+  }
+  .accordion-card .faq-text {
+    margin-bottom: -0.48em;
+  }
+  .accordion-card .faq-img {
+    height: 100%;
+  }
+  .accordion-card .faq-img img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .accordion-card:last-child {
+    margin-bottom: 0;
+  }
+  @media (max-width: 575px) {
+    .accordion-card .accordion-button {
+      font-size: 16px;
+    }
+  }
+  .course-curriculam {
+    padding: var(--blog-space-y, 40px) var(--blog-space-x, 40px);
+  }
+ul {
+    list-style-type: disc;
 }
